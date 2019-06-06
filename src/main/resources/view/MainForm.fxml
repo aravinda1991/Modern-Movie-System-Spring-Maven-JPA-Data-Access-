@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.savoy.bean.controller.MainFormController">
+    <children>
+        <ImageView fx:id="imgMovie" fitHeight="80.0" fitWidth="80.0" layoutX="84.0" layoutY="218.0" onMouseClicked="#navigate" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../asset/imgMovie.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="230.0" layoutY="128.0" text="Queen's Cinema">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="imgLogo" fitHeight="94.0" fitWidth="146.0" layoutX="227.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../asset/imgLogo.jpg" />
+            </image>
+        </ImageView>
+        <Separator layoutX="32.0" layoutY="181.0" prefHeight="0.0" prefWidth="547.0" />
+        <ImageView fx:id="imgActor" fitHeight="80.0" fitWidth="80.0" layoutX="260.0" layoutY="218.0" onMouseClicked="#navigate" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../asset/imgActor.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="imgRegister" fitHeight="80.0" fitWidth="80.0" layoutX="398.0" layoutY="218.0" onMouseClicked="#navigate" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../asset/imgRegister.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="lbl1" alignment="CENTER" layoutX="4.0" layoutY="316.0" prefHeight="17.0" prefWidth="594.0" text="Welcome">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl2" alignment="CENTER" layoutX="9.0" layoutY="361.0" prefHeight="17.0" prefWidth="594.0" text="Copyright 2019  ABC - 1 Version">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
